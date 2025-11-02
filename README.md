@@ -23,10 +23,16 @@ Ampliar y mejorar un proyecto Java utilizando conceptos avanzados de POO como **
 
 ### Diagrama de Clases
 Clases Principales
+
+
 Clase Abstracta Base
+
+
 ContenidoAudiovisual: Clase abstracta base con propiedades comunes a todos los contenidos
 
 Subclases Especializadas
+
+
 Pelicula: Gestiona películas con actores y estudios
 
 SerieDeTV: Administra series con temporadas y episodios
@@ -44,7 +50,7 @@ Temporada: Modela temporadas en series de TV
 
 Investigador: Representa investigadores en documentales
 
-##🔧 Funcionalidades Implementadas
+## 🔧 Funcionalidades Implementadas
 Relaciones POO Implementadas
 Herencia
 Todas las subclases heredan de ContenidoAudiovisual
@@ -95,7 +101,7 @@ Sistema de donaciones
 
 Gestión de moderadores
 
-🚀 Instrucciones de Instalación y Ejecución
+## 🚀 Instrucciones de Instalación y Ejecución
 Prerrequisitos
 Java JDK 8 o superior
 
@@ -113,10 +119,29 @@ bash
 # Prueba principal del sistema
 java -cp bin poo.PruebaAudioVisual
 
-##📁 Estructura de Archivos
-![Uploading image.png…]()
+## 📁 Estructura de Archivos
 
-🧪 Pruebas y Verificaciones
+poo_deber_unidad1/
+│
+├── poo/
+│   ├── PruebaAudioVisual.java
+│
+├── uni1a/
+│   ├── ContenidoAudiovisual.java
+│   ├── Pelicula.java
+│   ├── SerieDeTV.java
+│   ├── Documental.java
+│   ├── Podcast.java
+│   ├── Livestream.java
+│   ├── Actor.java
+│   ├── Temporada.java
+│   └── Investigador.java
+│
+├── README.md
+└── diagrama-clases.png
+
+
+## 🧪 Pruebas y Verificaciones
 Pruebas Implementadas
 Creación de objetos: Verificación de instanciación correcta
 
@@ -137,7 +162,7 @@ testFuncionalidades(): Prueba métodos específicos
 
 testCasosLimite(): Manejo de casos extremos
 
-🔄 Gestión de Versiones en GitHub
+## 🔄 Gestión de Versiones en GitHub
 Commits Realizados
 Commit inicial: Estructura base del proyecto
 
@@ -158,7 +183,7 @@ Documentación completa
 
 Código comentado
 
-🛠️ Mejoras Adicionales Implementadas
+ ## 🛠️ Mejoras Adicionales Implementadas
 Optimizaciones de Código
 Uso de List<> en lugar de arrays para mejor manejo de colecciones
 
@@ -177,7 +202,7 @@ Formateo de salidas monetarias y de fechas
 
 Estadísticas en tiempo real para livestreams y podcasts
 
-📊 Diagrama de Clases
+## 📊 Diagrama de Clases
 El sistema incluye un diagrama UML que muestra:
 
 Relaciones de herencia entre ContenidoAudiovisual y sus subclases
@@ -188,8 +213,8 @@ Atributos y métodos principales de cada clase
 
 Cardinalidades de las relaciones
 
-👥 Autor
+## 👥 Autor
 Desarrollado como parte de un proyecto académico para implementar conceptos avanzados de Programación Orientada a Objetos.
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto es con fines educativos y académicos.
