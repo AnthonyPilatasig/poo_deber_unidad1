@@ -1,21 +1,27 @@
-    Sistema de Gestión de Contenido Audiovisual
-📋 Descripción del Proyecto
-Sistema desarrollado en Java para la gestión integral de contenido audiovisual, implementando conceptos avanzados de Programación Orientada a Objetos (POO). El proyecto permite administrar diferentes tipos de contenido como películas, series, documentales, podcasts y livestreams, con relaciones complejas entre entidades.
+# 🎬 Sistema de Gestión de Contenido Audiovisual
 
-🎯 Objetivos del Proyecto
-Objetivo General
-Ampliar y mejorar un proyecto Java utilizando conceptos avanzados de POO como herencia, asociación, agregación y composición, integrando nuevas clases en un sistema existente y gestionando el proyecto mediante GitHub.
+[![Java](https://img.shields.io/badge/Java-17+-blue.svg)](https://java.com)
+[![POO](https://img.shields.io/badge/Programación-Orientada%20a%20Objetos-green.svg)](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-lightgrey.svg)](https://github.com)
 
-Objetivos Específicos
-Diseñar e implementar un sistema de gestión de contenido audiovisual
+## 📋 Descripción
 
-Aplicar relaciones de herencia, asociación, agregación y composición
+Sistema desarrollado en Java para la gestión integral de contenido audiovisual, implementando conceptos avanzados de Programación Orientada a Objetos (POO). El proyecto permite administrar diferentes tipos de contenido multimedia con relaciones complejas entre entidades.
 
-Gestionar el proyecto mediante control de versiones en GitHub
+## 🎯 Objetivos
 
-Documentar el sistema completo con pruebas funcionales
+### Objetivo General
+Ampliar y mejorar un proyecto Java utilizando conceptos avanzados de POO como **herencia, asociación, agregación y composición**, integrando nuevas clases en un sistema existente.
 
-🏗️ Estructura del Proyecto
+### Objetivos Específicos
+- ✅ Diseñar e implementar sistema de gestión de contenido audiovisual
+- ✅ Aplicar relaciones de POO avanzadas
+- ✅ Gestionar proyecto mediante control de versiones en GitHub
+- ✅ Documentar sistema completo con pruebas funcionales
+
+## 🏗️ Arquitectura del Sistema
+
+### Diagrama de Clases
 Clases Principales
 Clase Abstracta Base
 ContenidoAudiovisual: Clase abstracta base con propiedades comunes a todos los contenidos
