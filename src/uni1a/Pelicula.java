@@ -37,7 +37,7 @@ public class Pelicula extends ContenidoAudiovisual {
         System.out.println("Género: " + getGenero());
         System.out.println("Estudio: " + estudio);
         if (!actores.isEmpty()) {
-        	System.out.printf("Actores");
+        	System.out.println("Actores");
         	for (Actor actor : actores) {
         		System.out.printf(" -"+ actor);
         	}
