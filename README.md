@@ -44,7 +44,7 @@ Temporada: Modela temporadas en series de TV
 
 Investigador: Representa investigadores en documentales
 
-🔧 Funcionalidades Implementadas
+##🔧 Funcionalidades Implementadas
 Relaciones POO Implementadas
 Herencia
 Todas las subclases heredan de ContenidoAudiovisual
@@ -113,26 +113,9 @@ bash
 # Prueba principal del sistema
 java -cp bin poo.PruebaAudioVisual
 
-📁 Estructura de Archivos
-text
-poo_deber_unidad1/
-│
-├── poo/
-│   ├── PruebaAudioVisual.java
-│
-├── uni1a/
-│   ├── ContenidoAudiovisual.java
-│   ├── Pelicula.java
-│   ├── SerieDeTV.java
-│   ├── Documental.java
-│   ├── Podcast.java
-│   ├── Livestream.java
-│   ├── Actor.java
-│   ├── Temporada.java
-│   └── Investigador.java
-│
-├── README.md
-└── diagrama-clases.png
+##📁 Estructura de Archivos
+![Uploading image.png…]()
+
 🧪 Pruebas y Verificaciones
 Pruebas Implementadas
 Creación de objetos: Verificación de instanciación correcta
